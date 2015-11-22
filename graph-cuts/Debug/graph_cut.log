@@ -1,0 +1,23 @@
+﻿Build started 11/17/2015 3:19:35 PM.
+     1>Project "C:\Users\Scott\Desktop\graph_cuts\graph_cut.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Graph2D.cpp
+         Graph2D.cpp
+     1>c:\users\scott\desktop\graph_cuts\graph2d.cpp(247): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\scott\desktop\graph_cuts\graph2d.cpp(280): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\scott\desktop\graph_cuts\graph2d.cpp(168): warning C4101: 'bval': unreferenced local variable
+     1>c:\users\scott\desktop\graph_cuts\graph2d.cpp(168): warning C4101: 'rval': unreferenced local variable
+     1>c:\users\scott\desktop\graph_cuts\graph2d.cpp(168): warning C4101: 'gval': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Scott\Desktop\graph_cuts\Debug\graph_cut.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Scott\Desktop\graph_cuts\Debug\graph_cut.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Scott\Desktop\graph_cuts\Debug\graph_cut.lib" /MACHINE:X86 Debug\Basics2D.obj
+         Debug\cs1037lib.obj
+         Debug\Graph2D.obj
+         Debug\main.obj
+         Debug\graph.obj
+         Debug\maxflow.obj
+         graph_cut.vcxproj -> C:\Users\Scott\Desktop\graph_cuts\Debug\graph_cut.exe
+     1>Done Building Project "C:\Users\Scott\Desktop\graph_cuts\graph_cut.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87
